@@ -1,0 +1,396 @@
+.page8flexClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.page8{
+    max-width: 95vw;
+    margin: auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.page8-top-float-box{
+    position: absolute;
+    width: 91vw;
+    height: 340px;
+    border-radius: 20px;
+    top: -150px;
+    overflow: hidden;
+    gap: 370px;
+    z-index: 5;
+    transform: translateY(90px); /* Initial translateX value */
+    transition: transform 0.5s ease-in-out;
+}
+
+.page8-top-float-box::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/c1-img-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    transform: scale(1.3); /* Initial scale */
+    transition: transform 0.5s ease-in-out; /* Transition for scale */
+
+    z-index: -1; /* Ensure it's behind the content */
+}
+
+.page8-top-float-box.animate::before {
+    transform: scale(1);
+}
+
+.page8-top-float-box.animate {
+    transform: translateY(0px); /* Apply translation and scale */
+}
+
+.page8-heading-box1 {
+    position: relative;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+    z-index: 10;
+
+    .page2-upper-heading{
+        >span{
+            position: relative;
+            width: 24px;
+            height: 12px;
+        }
+
+        >span::before {
+            content: '';
+            position: absolute;
+            top: 4px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(30deg, #a249ed 20%, #6131e8 100%);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            transform: rotate(135deg);
+        }
+
+        .upper-headingh5{
+            font-size: 17px;
+            color: rgb(91, 91, 91);
+            font-weight: 900;
+        }
+    }
+
+    .page4-bottom-heading{
+        .page2-commonClass{
+            font-size: 48px;
+            line-height: 56px;
+        }
+    }
+}
+
+.page8-heading-box2{
+    top: 290px;
+}
+
+.page8-heading{
+    text-align: center;
+}
+
+.page2-cards-box{
+    .page8-cards-box-inner{
+        top: 315px;
+        height: auto;
+        align-items:flex-start;
+        cursor: auto;
+        overflow: hidden;
+
+        .page8-card-CommonClass{
+            height: auto;
+            border-radius: 12px;
+            cursor:auto;
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 29vw;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+
+            .page8-card-upperPart .page8-bottom-card-main-img img{
+                transform: scale(1);
+                filter: grayscale(0%);
+                transition: transform 0.6s ease-in-out, filter 0.5s ease-in-out;
+                border-radius: 12px;
+            }
+            
+            
+            .page8-card-upperPart:hover .page8-bottom-card-main-img img{
+                transform: scale(1.05);
+                filter: grayscale(100%);
+            }
+
+            .page8-heading-para{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 8px;
+
+                >h6{
+                    font-size: 33px;
+                    font-weight: 800;
+                    line-height: 45px;
+                    color: rgb(20, 21, 21);
+                    margin-top: 14px;
+                    transition: color 0.5s ease-in-out;
+                }
+
+                >h6:hover{
+                    color: rgb(162, 73, 237);
+                    cursor: pointer;
+                }
+
+                >p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 28px;
+                    color: rgb(80, 78, 78);
+                    margin-top: 10px;
+                }
+            }
+        }
+        
+    }
+}
+
+.page8-card-imgBox{
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    >img{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+.page8-card-header-box{
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.page8-card-header-box >h3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    color: rgb(13, 22, 26);
+    margin-left: 8px;
+}
+
+.page8-card-button{
+    position: relative;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    background: linear-gradient(-30deg, #a249ed 20%, #6131e8 100%);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 0 0 12px;
+    bottom: 8px;
+    text-align: center;
+}
+
+.page8-card-progressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 3px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 32px;
+}
+
+.page8-bottom-card-main-img{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px){
+    .page2-cards-box{
+        .page8-cards-box-inner{
+    
+            .page8-card-CommonClass{
+                width: 41vw;
+    
+                .page8-heading-para{
+    
+                    >h6{
+                        font-size: 30px;
+                        line-height: 41px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+    .page8-heading-box1 {
+        .page4-bottom-heading{
+            .page2-commonClass{
+                font-size: 36px;
+                line-height: 42px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .page8-top-float-box{
+        position: absolute;
+        width: 91vw;
+        height: 340px;
+        border-radius: 20px;
+        top: -150px;
+        overflow: hidden;
+        gap: 100px;
+        z-index: 5;
+        transform: translateY(90px); /* Initial translateX value */
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .page8-top-float-box{
+        box-sizing: border-box;
+        width: 91vw;
+        height: 270px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+
+    .page8-heading-box1 {
+        .page4-bottom-heading{
+            .page2-commonClass{
+                font-size: 28px;
+                line-height: 32px;
+            }
+        }
+    }
+
+    .page8-heading-box2{
+        top: 230px;
+    }
+
+    .page2-heading-box{
+        .page8-heading{
+          font-size: 40px;
+          font-weight: 800;
+        }
+    }
+
+    .page2-cards-box{
+        .page8-cards-box-inner{
+            top: 260px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            .page8-card-CommonClass{
+                width: 66vw;
+    
+                .page8-card-upperPart .page8-bottom-card-main-img img{
+                    width: 66vw;
+                    height: 320px;
+                    object-fit: cover;
+                }
+    
+                .page8-heading-para{
+                    width: 64vw;
+    
+                    >h6{
+                        font-size: 28px;
+                        line-height: 38px;
+                    }
+                }
+
+                .page8-card-header-box{
+                    width: 64vw;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    .page8-top-float-box{
+        padding-left: 20px;
+    }
+
+    .page2-heading-box{
+        .page8-heading{
+          font-size: 30px;
+          line-height: 30px;
+          font-weight: 800;
+        }
+    }
+
+    .page2-cards-box{
+        .page8-cards-box-inner{
+            margin: 0;
+            padding: 0;
+    
+            .page8-card-CommonClass{
+                width: 94vw;
+                margin: auto;
+    
+                .page8-card-upperPart .page8-bottom-card-main-img img{
+                    width: 94vw;
+                    height: 320px;
+                    object-fit: cover;
+                }
+    
+                .page8-heading-para{
+                    width: 92vw;
+    
+                    >h6{
+                        font-size: 25px;
+                        line-height: 34px;
+                    }
+                }
+
+                .page8-card-header-box{
+                    width: 92vw;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 320px){
+    .page8-top-float-box{
+        padding-left: 26px;
+    }
+
+    .page8-heading-box1 {
+        .page4-bottom-heading{
+            width: auto;
+
+            .page2-commonClass{
+                text-align: left;
+            }
+        }
+    }
+} 

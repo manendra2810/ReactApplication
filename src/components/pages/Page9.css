@@ -1,0 +1,233 @@
+.page9flexClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.page9{
+    max-width: 95vw;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+}
+
+.footer-box{
+    width: 91vw;
+}
+
+.footer-box-top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 44px 0;
+}
+
+.footer-section1-right-box h2{
+    font-size: 27px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin-right: 65px;
+}
+
+.devider{
+    height: 2px;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+}
+
+
+
+.footer-center-box{
+    display: flex;
+    margin: 44px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.center-box-1{
+    >h2{
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 35px;
+        color: rgb(255, 255, 255);
+    }
+    .email-search-box{
+        display: flex;
+        align-items: center;
+        margin-top: 22px;
+
+        >input{
+            padding: 0 16px;
+            width: 210px;
+            height: 60px;
+        }
+
+        >input::placeholder{
+            font-size: 15px;
+            color: rgb(31, 31, 31);
+            line-height: 25px;
+            border: none;
+        }
+
+        >button{
+            height: 64px;
+            font-size: 24px;
+            background-color: rgb(97, 49, 232);
+            color: rgb(255, 255, 255);
+            padding: 0 20px;
+            border: none;
+        }
+    }
+}
+
+.page9-footer-center-box{
+    color: rgb(255, 255, 255);
+
+    >h2{
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 800;
+    }
+
+    >ul{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    >ul li a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400; 
+    }
+
+    >ul li a:hover{
+        color: rgb(162, 73, 237);
+        transition: 0.3s ease;
+    }
+}
+
+
+.footer-bottom-icon-box{
+    gap: 2px;
+}
+
+.footer-icon{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 30px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.footer-icon:hover{
+    background-color: rgb(162, 73, 237);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.footer-bottom-text{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    gap: 6px;
+
+    .dash{
+        border-left: 2px solid rgb(114, 55, 233);
+        height: 14px;
+    }
+
+    >a{
+        text-decoration: none;
+        font-weight: 700;
+        color: rgb(114, 55, 233);
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .footer-center-box{
+        column-gap: 204px;
+        row-gap: 48px;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer-box{
+        width: 91vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-box-top-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .footer-section1-right-box{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer-section1-right-box h2{
+        margin-right: 0px;
+    }
+
+    .footer-center-box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .footer-bottom-text{
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer-section1-right-box{
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .footer-bottom-text{
+        line-height: 24px;
+    }
+
+    .center-box-1 {
+        .email-search-box {
+            display: flex;
+            align-items: center;
+            margin-top: 22px;
+            width: 98vw;
+            justify-content: center;
+
+            > input {
+                padding: 0 0 0 16px;
+                width: 60vw;
+                height: 60px;
+            }
+
+            > button {
+                height: 64px;
+                font-size: 24px;
+                background-color: rgb(97, 49, 232);
+                color: rgb(255, 255, 255);
+                padding: 0;
+                border: none;
+                width: 20vw;
+            }
+        }
+    }
+}

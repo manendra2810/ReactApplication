@@ -1,0 +1,27 @@
+.page5flexClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.page5{
+    max-width: 100vw;
+    margin: auto;
+    flex-direction: column;
+}
+
+.page5-upper-heading{
+    flex-direction: column;
+    margin-bottom: 44px;
+}
+
+.page5-heading{
+    line-height: 60px;  
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
