@@ -41,7 +41,7 @@
   box-sizing: border-box;
   height: 180px;
   font-size: 37px;
-  line-height: 50px;
+  line-height: 50px; 
   font-weight: 800;
   padding: 14px 0 5px 20px;
 
@@ -76,6 +76,7 @@
   height: 180px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
+  background-color: rgb(255, 255, 255);
 
   >img{
     filter: grayscale(1);
@@ -83,7 +84,7 @@
   }
 
   .playBtn-blink{
-    transform: translateX(-132px);
+    /* transform: translateX(0px); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -318,6 +319,7 @@
           height: 74px;
           filter: invert(1);
           margin-top: 17px;
+          border-radius: 50%;
         }
       }
 
@@ -533,6 +535,7 @@
 .right-img-box >img{
   width: 490px;
   height: 490px;
+  border-radius: 50%;
 }
 
 .page2-bottom-right-box{

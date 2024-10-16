@@ -7,6 +7,10 @@ import { BiSolidRightArrowAlt } from "react-icons/bi";
 import { MdArrowRightAlt } from "react-icons/md";
 import { GiMegaphone } from "react-icons/gi";
 import { TbMailOpenedFilled } from "react-icons/tb";
+import developmentImage from '../../assets/images/development-icon.jpg';
+import personImg from '../../assets/images/person.jpg';
+import img1 from '../../assets/images/img_1.webp'
+import img4 from '../../assets/images/img_4.webp'
 import './Page2.css';
 
 const Page2 = () => {
@@ -243,7 +247,6 @@ const formatCount2 = (num) => {
         </div>
 
         <div className="imgBox page2flexClass">
-          <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-video-img-1.webp" alt=""/>
           <div className="playBtn-blink">
             <div className="playBtn">
                 <FaPlay />
@@ -283,7 +286,7 @@ const formatCount2 = (num) => {
           </div>
         </div>
       </div>
-
+      
       <div className="page2-heading-box page2flexClass">
         <div className='page2flexClass page2-upper-heading'>
           <span className='page2flexClass'></span>
@@ -299,7 +302,7 @@ const formatCount2 = (num) => {
 
           <div className="page2-card1 page2flexClass page2-card-CommonClass">
             <div className="page2-card-imgBox page2flexClass">
-              <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-1.webp" alt=""/>
+              <img src={developmentImage} alt="" />
             </div>
             <div className="card-heading page2flexClass">
               <h4>Web Development</h4>
@@ -331,7 +334,7 @@ const formatCount2 = (num) => {
 
           <div className="page2-card2 page2flexClass page2-card-CommonClass">
             <div className="page2-card-imgBox page2flexClass">
-              <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-icon-2.webp" alt=""/>
+              <img src={developmentImage} alt="" />
             </div>
             <div className="card-heading page2flexClass">
               <h4>Web Development</h4>
@@ -363,7 +366,7 @@ const formatCount2 = (num) => {
 
           <div className="page2-card3 page2flexClass page2-card-CommonClass">
             <div className="page2-card-imgBox page2flexClass">
-              <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2024/01/s1-icon-5.png" alt=""/>
+              <img src={developmentImage} alt="" />
             </div>
             <div className="card-heading page2flexClass">
               <h4>Web Development</h4>
@@ -454,10 +457,10 @@ const formatCount2 = (num) => {
           <div className="page2-bottom-image-box">
             <div className="page2-bottom-inner-image-box page2flexClass">
               <div className="bottom-img-box">
-                <img width="201" height="131" src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-img-2.webp" alt="" srcSet="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-img-2.webp 321w, https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-img-2-300x200.webp 300w" sizes="(max-width: 321px) 100vw, 321px"/>
+                <img width="201" height="131" src={img1} alt=''/>
               </div>
-              <div className="price-info-box">
-                <img width="190" height="119" src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-img-3.webp" alt=""/>
+              <div className="bottom-img-box">
+                <img width="201" height="131" src={img4} alt=""/>
               </div>
             </div>
             <div className="page1-button">
@@ -471,7 +474,7 @@ const formatCount2 = (num) => {
 
         <div className="page2-bottom-right-box page2flexClass">
           <div className="right-img-box">
-            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/s1-img-1png.webp" alt=""/>
+            <img src={personImg} alt=""/>
           </div>
           <div className="right-goals-box page2flexClass">
             <div className="goals-box-heading">
@@ -514,5 +517,6 @@ const formatCount2 = (num) => {
     </div>
   );
 }
+
 
 export default Page2

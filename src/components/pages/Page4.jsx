@@ -4,6 +4,8 @@ import { MdArrowRightAlt } from "react-icons/md";
 import './Page2.css';
 import './Page3.css';
 import './Page4.css';
+import person2 from '../../assets/images/person2.png';
+import page4Img from '../../assets/images/page4.png';
 
 const Page4 = () => {
     useEffect(() => {
@@ -39,7 +41,7 @@ const Page4 = () => {
             <div className="page4-upper-box page4flexClass">
                 <div className="page2-bottom-right-box page2flexClass">
                     <div className="page4-upper-img-box">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-1.webp" alt=""/>
+                        <img src={person2} alt=""/>
                     </div>
                 </div>
 
@@ -67,9 +69,9 @@ const Page4 = () => {
                                 </div> 
                             </div>
                         </div>
-                        <div className="upper-nft-image-box">
+                        {/* <div className="upper-nft-image-box">
                             <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-2.webp" alt=""/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -100,7 +102,7 @@ const Page4 = () => {
  
                 <div className="page2-bottom-right-box page2flexClass">
                     <div className="page4-right-img-box">
-                        <img width="640" height="407" src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-3.webp" alt="" srcSet="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-3.webp 830w, https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-3-300x191.webp 300w, https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-3-768x489.webp 768w, https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-3-600x382.webp 600w" sizes="(max-width: 640px) 100vw, 640px"/>
+                        <img width="640" height="407" src={page4Img} alt=""/>
                     </div>
                 </div>
             </div> 

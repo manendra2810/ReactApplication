@@ -15,7 +15,7 @@ const Page9 = () => {
 
         <div className="footer-box-top-section">
             <div className="footer-logo-box page9flexClass">
-                <img width="142" height="48" src="https://themexriver.com/wp/choicy/wp-content/uploads/2024/01/logo-white.webp" alt=""/>
+                VG Technologies
             </div>
             <div className="footer-section1-right-box page9flexClass">
                 <h2>Ready To Get Started</h2>
@@ -82,7 +82,7 @@ const Page9 = () => {
         <div className="devider"></div>
 
         <div className="footer-box-top-section page9flexClass">
-            <div className="footer-logo-box footer-bottom-icon-box page9flexClass">
+            <div className="footer-bottom-icon-box page9flexClass">
                 <div className="footer-icon"><FaFacebook /></div>
                 <div className="footer-icon"><FaXTwitter /></div>
                 <div className="footer-icon"><FaInstagram /></div>

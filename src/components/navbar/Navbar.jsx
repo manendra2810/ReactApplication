@@ -45,17 +45,17 @@ const Navbar = () => {
         </div>
 
         <div className="logo flexClass">
-          <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/logo-black.webp"/>
+          VG Technologies
         </div>
 
-        <div className="nav-part2 flexClass">
+        {/* <div className="nav-part2 flexClass">
           <div className="search-cartBox flexClass">
               <GrSearch className='searchIcon'/>
               <input type="search" placeholder='Search'/>
               <div className="line"></div>
               <FaShoppingBag className='cartBag'/>
           </div>
-        </div>
+        </div> */}
       </div>
 
 
@@ -65,8 +65,8 @@ const Navbar = () => {
 
       <div className="navBarFloatBox flexClass closePannel">
         <div className="nav-box1">
-          <div className="nav-floatBox-logo">
-            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2024/01/logo-white.webp" alt=""/>
+          <div className="logo flexClass">
+            VG Technologies
           </div>
 
           <div className="close-img-box" onClick={handleFloatBoxNavHamMenu}>
@@ -74,12 +74,12 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="nav-box2 flexClass">
+        {/* <div className="nav-box2 flexClass">
           <div className="search-bar flexClass">
             <input type="search" placeholder='Search'/>
             <GrSearch className='searchIcon2'/>
           </div>
-        </div>
+        </div> */}
 
         <div className="nav-box3">
           <div className="nav-box3-1">
@@ -92,7 +92,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="nav-box3-2">
+          {/* <div className="nav-box3-2">
             <div className="box3-img-box">
               <a class=""> 
                 <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/p1-img-1-1.webp" alt=""/>
@@ -118,7 +118,7 @@ const Navbar = () => {
                 <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2024/01/p3-img-3.webp" alt=""/> 
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="nav-box4 flexClass">

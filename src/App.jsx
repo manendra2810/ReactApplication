@@ -31,7 +31,7 @@ function App() {
     <>
       {isLoading ? (<Loader/>) : (
         <div className='main-container'>
-          <div className="mainContainer">
+          <div className="mainContainer"> 
             <Navbar/>
             <Page1/>
           </div>
@@ -50,12 +50,12 @@ function App() {
           <div className="page6Container">
             <Page6/>
           </div>
-          <div className="page7Container">
+          {/* <div className="page7Container">
             <Page7/>
           </div>
           <div className="page8Container">
             <Page8/>
-          </div>
+          </div> */}
           <div className="page9Container">
             <Page9/>
           </div>

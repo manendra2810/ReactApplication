@@ -4,6 +4,8 @@ import { IoIosCheckmark } from "react-icons/io";
 import { MdArrowRightAlt } from "react-icons/md";
 import './Page6.css';
 import './Page2.css';
+import page6Img from '../../assets/images/page6.png';
+import personImg from '../../assets/images/person.jpg';
 
 const Page6 = () => {
     useEffect(() => {
@@ -177,34 +179,7 @@ const Page6 = () => {
             </div>
 
             <div className="page6-bottom-section page6flexClass"> 
-              <img className='page6-bottom-blink-image bottom-blink-img1' src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-facebook.webp" alt=""/> 
-              <img className='page6-bottom-blink-image bottom-blink-img2' src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-instragram.webp" alt=""/>
-              
-              <div className="page6-bottom-img-box page6-bottom-img-1-box page6flexClass">
-                <img className='img1-side-text' src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-il-text-1.webp" alt=""/>
-                <div className="page6-bottom-inner-img-1-box page6-bottom-inner-img-box"> 
-                  <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-img-1.webp" alt=""/>
-                  <div className="page6-bottom-img-text page6flexClass">
-                    <h5 className="page6-bottom-img-text-heading"> 
-                      <a href="https://themexriver.com/wp/choicy/about/"> Natalie Portman </a>
-                    </h5>
-                    <p className="page6-bottom-img-text-para">marketing officer</p>
-                  </div>
-                </div> 
-              </div>
-
-              <div className="page6-bottom-img-box page6-bottom-img-2-box page6flexClass">
-                <div className="page6-bottom-inner-img-2-box page6-bottom-inner-img-box"> 
-                  <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-img-2.webp" alt=""/>
-                  <div className="page6-bottom-img-text page6flexClass">
-                    <h5 className="page6-bottom-img-text-heading"> 
-                      <a href="https://themexriver.com/wp/choicy/about/"> Dwayne Johnson </a>
-                    </h5>
-                    <p className="page6-bottom-img-text-para">wp developer</p>
-                  </div>
-                </div> 
-                <img className='img2-side-text' src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-il-text-2.webp" alt=""/>
-              </div>
+              <img src={page6Img} alt=""/>
             </div>
 
             <div className="page6-bottom-button page1-button">
@@ -215,23 +190,23 @@ const Page6 = () => {
             </div> 
 
             <div className="page6-bottom-background-div"></div>
+            
+            <div className="page6-footer-middle-border page6flexClass"></div>
 
             <div className="page6-footer page6flexClass">
               <div className="page6-footer-upper-box">
                 <div className="page6-footer-img">
-                  <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-slider-img-1.webp" alt=""/>
+                  <img src={personImg} alt=""/>
                 </div>
                 <div className="page6-footer-upper-right-text-box">
                   <h4>A Framework For Scaling Teams</h4>
                   <p>Every pleasure is to be welcomed and every pain avoided. is to be welcomed and every Every pleasure is to be welcomed and every pain avoided. is to be welcomed every Every pleasure is to be welcomed</p>
-                  <h5>Logon D</h5>
+                  <h5>Shivam Singh</h5>
                   <span>Founder, Marketing agency</span>
                 </div>
               </div>
- 
-              <div className="page6-footer-middle-border page6flexClass"></div>
 
-              <div className="page6-footer-bottom-box page6flexClass">
+              {/* <div className="page6-footer-bottom-box page6flexClass">
                 <div className="page6-footer-bottom-left-box">
                   <div className='page6-footer-bottom-heading page2-bottom-heading page2flexClass page2-bottom-left-heading'>
                     <h3 className='page2-commonClass page2-heading'>Our Investors</h3>
@@ -272,7 +247,7 @@ const Page6 = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
             </div>
         </div> 

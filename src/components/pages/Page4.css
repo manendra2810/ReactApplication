@@ -27,6 +27,7 @@
 .page4-upper-img-box >img{
     width: auto;
     height: auto;
+    border-radius: 24px;
 }
 
 .page4-upper-right-para >p{

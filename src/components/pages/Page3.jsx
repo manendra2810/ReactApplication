@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import './Page2.css';
 import './Page3.css';
+import developmentImage from '../../assets/images/development-icon.jpg';
 
 const Page3 = () => {
     useEffect(() => {
@@ -107,9 +108,9 @@ const Page3 = () => {
             <div className="page3-images-box page3flexClass">
                 <div className="page3-image-box1 page3-image-box-commonClass page3flexClass">
                     <div className="page3-main-img-box page3flexClass">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-1.webp" alt=""/>
+                        {/* <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-1.webp" alt=""/> */}
                         <div className="page3-float-img page3flexClass">
-                            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-icon-1.webp" alt=""/>
+                            <img src={developmentImage} alt=""/>
                         </div>
                     </div>
                     <h5>Digital Marketing</h5>
@@ -118,9 +119,9 @@ const Page3 = () => {
 
                 <div className="page3-image-box2 page3-image-box-commonClass page3flexClass">
                     <div className="page3-main-img-box page3flexClass">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-2.webp" alt=""/>
+                        {/* <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-2.webp" alt=""/> */}
                         <div className="page3-float-img page3flexClass">
-                            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-icon-2.webp" alt=""/>
+                            <img src={developmentImage} alt=""/>
                         </div>
                     </div>
                     <h5>SEO Optimization</h5>
@@ -129,9 +130,9 @@ const Page3 = () => {
 
                 <div className="page3-image-box3 page3-image-box-commonClass page3flexClass">
                     <div className="page3-main-img-box page3flexClass">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-3.webp" alt=""/>
+                        {/* <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-3.webp" alt=""/> */}
                         <div className="page3-float-img page3flexClass">
-                            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-icon-3.webp" alt=""/>
+                            <img src={developmentImage} alt=""/>
                         </div>
                     </div>
                     <h5>Product Research</h5>
@@ -140,9 +141,9 @@ const Page3 = () => {
 
                 <div className="page3-image-box4 page3-image-box-commonClass page3flexClass">
                     <div className="page3-main-img-box page3flexClass">
-                        <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-4.webp" alt=""/>
-                        <div className="page3-float-img page3flexClass" >
-                            <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-icon-4.webp" alt=""/>
+                        {/* <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/r1-img-4.webp" alt=""/> */}
+                        <div className="page3-float-img page3flexClass">
+                            <img src={developmentImage} alt=""/>
                         </div>
                     </div>
                     <h5>Web Development</h5>

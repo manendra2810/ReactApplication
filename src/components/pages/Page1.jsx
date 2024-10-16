@@ -2,6 +2,7 @@ import React from 'react'
 import { MdArrowRightAlt } from "react-icons/md";
 import { FaPlay } from "react-icons/fa";
 import { useState, useEffect } from 'react';
+import personFirstImg from '../../assets/images/person-first.jpg';
 
 const Page1 = () => {
     const [style, setStyle] = useState({});
@@ -101,7 +102,7 @@ const Page1 = () => {
         <div className="page1-img">
             <div className="page1-box">
                 <div className="image-bg-box">
-                    <img className='slideUpImg' src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/h1-img-1.webp" alt=""/>
+                    <img className='slideUpImg' src={personFirstImg} alt=""/>
                 </div>
                 <div className="blinking-circle blinking-circle1"></div>
                 <div className="blinking-circle blinking-circle2"></div>
