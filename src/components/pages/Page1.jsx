@@ -82,7 +82,7 @@ const Page1 = () => {
                 <h1 className='commonClass page1-heading'>Building</h1>
                 <h1 className='commonClass page1-heading'>A Better You</h1>
             </div>
-            <p>Every pleasure is to be welcomed and every pain avoided. and every pain avoided. certain circumstances ands</p>
+            <p>100% Trusted and Registered Company in India with a professional website that provides the best web development and web design services in India. We are a company that offers multi-functional web portals, and we make sure that a well-developed and attractive website can help our clients to record ROI-driven results.</p>
             <div className="page1-button">
                 <div className="explore-btn">
                     <span>EXPLORE MORE</span>

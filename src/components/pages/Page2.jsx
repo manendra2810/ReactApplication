@@ -236,7 +236,7 @@ const formatCount2 = (num) => {
             <span className="icon-2 icon">
               <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-world-4.webp" alt=""/>
             </span>
-            250,000 Business 
+            2,500 Business 
             <span className="icon-3 icon">
               <img src="https://themexriver.com/wp/choicy/wp-content/uploads/2023/12/t1-world-3.webp" alt=""/>
             </span> 
@@ -290,10 +290,10 @@ const formatCount2 = (num) => {
       <div className="page2-heading-box page2flexClass">
         <div className='page2flexClass page2-upper-heading'>
           <span className='page2flexClass'></span>
-          <h5 className='upper-headingh5'>CONSULTING SERVICES</h5>
+          <h5 className='upper-headingh5'>BEST FOR YOU</h5>
         </div>
         <div className='page2flexClass'>
-          <h3 className='page2-commonClass page2-heading'>Consulting Costing</h3>
+          <h3 className='page2-commonClass page2-heading'>Our Services</h3>
         </div>
       </div>
 
@@ -306,7 +306,7 @@ const formatCount2 = (num) => {
             </div>
             <div className="card-heading page2flexClass">
               <h4>Web Development</h4>
-              <p>Every pleasure is to be welcomed and every pain avoided.</p>
+              <p>We are the best web design company in India with highly experienced coders.</p>
             </div>
             <div className="card-border"></div>
             <div className="card-body page2flexClass">
@@ -337,8 +337,8 @@ const formatCount2 = (num) => {
               <img src={developmentImage} alt="" />
             </div>
             <div className="card-heading page2flexClass">
-              <h4>Web Development</h4>
-              <p>Every pleasure is to be welcomed and every pain avoided.</p>
+              <h4>E - Commerse</h4>
+              <p>Create custom e-commerce websites with excellent APIs and design structures to boost your overall growth.</p>
             </div>
             <div className="card-border"></div>
             <div className="card-body page2flexClass">
@@ -369,8 +369,8 @@ const formatCount2 = (num) => {
               <img src={developmentImage} alt="" />
             </div>
             <div className="card-heading page2flexClass">
-              <h4>Web Development</h4>
-              <p>Every pleasure is to be welcomed and every pain avoided.</p>
+              <h4>Cost Effective</h4>
+              <p>We provide custom web development services to suit your cost utilization needs to meet the goals you have set for your business.</p>
             </div>
             <div className="card-border"></div>
             <div className="card-body page2flexClass">
@@ -451,7 +451,7 @@ const formatCount2 = (num) => {
           </div>
 
           <div className="page2-bottom-left-para">
-            <p>Every pleasure is to be welcomed and every pain avoided. certain circumstances and owing to the claims welcomed and every pain avoided certain circumstances</p>
+            <p>We are a One-Stop Solution for delivering the best web design and development services. We render customized and affordable web design facilities to suit your requirements. Choose the best plans for building a responsive web design according to your needs.</p>
           </div>
 
           <div className="page2-bottom-image-box">

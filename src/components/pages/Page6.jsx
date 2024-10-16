@@ -105,7 +105,7 @@ const Page6 = () => {
                         </div>
                         <div className="page6-heading-para">
                             <h6>Business</h6>
-                            <p>Every pleasure is to be welcomed and every pain avoided. is to be welcomed and every</p>
+                            <p>Embrace opportunities while minimizing challenges for a balanced approach to success.</p>
                         </div>
                         <a className="page6-card-button" href="">Get Started</a>
                         <p className='page6-text-after-button page6flexClass'>14-Day Free Trial - No Credit Card Required</p>
@@ -128,7 +128,7 @@ const Page6 = () => {
                         </div>
                         <div className="page6-heading-para">
                             <h6>Agency</h6>
-                            <p>Every pleasure is to be welcomed and every pain avoided. is to be welcomed and every</p>
+                            <p>Focus on maximizing benefits while effectively managing obstacles for sustainable growth.</p>
                         </div>
                         <a className="page6-card-button" href="">Get Started</a>
                         <p className='page6-text-after-button page6flexClass'>30-Day Free Trial - No Credit Card Required</p>
@@ -151,7 +151,7 @@ const Page6 = () => {
                         </div>
                         <div className="page6-heading-para">
                             <h6>Company</h6>
-                            <p>Every pleasure is to be welcomed and every pain avoided. is to be welcomed and every</p>
+                            <p>Strive to enhance rewards while minimizing difficulties for a thriving organization.</p>
                         </div>
                         <a className="page6-card-button" href="">Get Started</a>
                         <p className='page6-text-after-button page6flexClass'>60-Day Free Trial - No Credit Card Required</p>
@@ -200,7 +200,7 @@ const Page6 = () => {
                 </div>
                 <div className="page6-footer-upper-right-text-box">
                   <h4>A Framework For Scaling Teams</h4>
-                  <p>Every pleasure is to be welcomed and every pain avoided. is to be welcomed and every Every pleasure is to be welcomed and every pain avoided. is to be welcomed every Every pleasure is to be welcomed</p>
+                  <p>Implementing a framework for scaling teams helps maximize opportunities and effectively navigate challenges. Together, we can drive growth and success in every endeavor.</p>
                   <h5>Shivam Singh</h5>
                   <span>Founder, Marketing agency</span>
                 </div>

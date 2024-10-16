@@ -100,8 +100,7 @@ const Page3 = () => {
                     <h3 className='page3-commonClass page2-heading page3-heading'>Consulting Costing</h3>
                 </div>
                 <div className="page3-heading-para page3flexClass" >
-                    <p>Every pleasure is to be welcomed and every pain avoided.
-                    certain circumstances and owing to the claims</p>
+                    <p>We are a One-Stop Solution for delivering the best web design and development services. We render customized and affordable web design facilities to suit your requirements.</p>
                 </div>
             </div>
 
@@ -114,7 +113,7 @@ const Page3 = () => {
                         </div>
                     </div>
                     <h5>Digital Marketing</h5>
-                    <p>Every pleasure is to be welcomed and every pain avoided.</p>
+                    <p>Attract new customers, and achieve your business objectives.</p>
                 </div>
 
                 <div className="page3-image-box2 page3-image-box-commonClass page3flexClass">
@@ -125,7 +124,7 @@ const Page3 = () => {
                         </div>
                     </div>
                     <h5>SEO Optimization</h5>
-                    <p>Every pleasure is to be welcomed and every pain avoided.</p>
+                    <p>Drive organic traffic with VG Technologies SEO expertise.</p>
                 </div>
 
                 <div className="page3-image-box3 page3-image-box-commonClass page3flexClass">
@@ -135,8 +134,8 @@ const Page3 = () => {
                             <img src={developmentImage} alt=""/>
                         </div>
                     </div>
-                    <h5>Product Research</h5>
-                    <p>Every pleasure is to be welcomed and every pain avoided.</p>
+                    <h5>Social Media Marketing</h5>
+                    <p>VG Technologies amplifies your brand voice through social media.</p>
                 </div>
 
                 <div className="page3-image-box4 page3-image-box-commonClass page3flexClass">
@@ -147,7 +146,7 @@ const Page3 = () => {
                         </div>
                     </div>
                     <h5>Web Development</h5>
-                    <p>Every pleasure is to be welcomed and every pain avoided.</p>
+                    <p>We focus on demanding technologies, frameworks, and tools.</p>
                 </div>
             </div>
         </div>

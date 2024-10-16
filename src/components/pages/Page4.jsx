@@ -50,7 +50,7 @@ const Page4 = () => {
                         <h3 className='page2-commonClass page4-heading'>We'll Help You Get Started</h3>
                     </div>
                     <div className="page4-upper-right-para page2-bottom-left-para">
-                        <p>Every pleasure is to be welcomed and every pain avoided. Certain circumstances and owing to the claims welcomed and every pain avoided certain circumstances</p>
+                        <p>Enhance customer relationships with our CRM solutions. Offering contact management, sales tracking, and customer support tools, our CRMs help businesses streamline processes.</p>
                     </div>
 
                     <div className="page4-right-bottom-box page4flexClass">
@@ -89,7 +89,7 @@ const Page4 = () => {
                         <h3 className='page2-commonClass page4-heading'>Avoid Unauthorized</h3>
                     </div>
                     <div className="page2-bottom-left-para">
-                        <p>Every pleasure is to be welcomed and every pain avoided. certain circumstances and owing to the claims welcomed and every pain avoided certain circumstances</p>
+                        <p>As a service provider, we ensure faster shipping through optimized logistics while safeguarding your information with strict security measures. Count on us for reliable service that balances speed and protection.</p>
                     </div>
                         
                     <div className="page1-button">
